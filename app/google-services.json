@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1070547169981",
+    "project_id": "newlivehealthier",
+    "storage_bucket": "newlivehealthier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070547169981:android:02c6e3a045a50369abbdd4",
+        "android_client_info": {
+          "package_name": "com.verzeo.medicinemajorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070547169981-o244uadrvckmfqfjmgdm0nihqfl0gb7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClG-g5-KO5eCdhsfpRqDEuJCvmbEl7Mfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070547169981-o244uadrvckmfqfjmgdm0nihqfl0gb7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

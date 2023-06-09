@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo</item>
+        <item>@font/boogaloo</item>
+        <item>@font/capriola</item>
+        <item>@font/carter_one</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/galdeano</item>
+        <item>@font/handlee</item>
+        <item>@font/rancho</item>
+        <item>@font/roboto</item>
+    </array>
+</resources>

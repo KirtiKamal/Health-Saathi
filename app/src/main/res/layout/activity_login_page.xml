@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBECEC"
+    tools:context=".login_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/prevbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:text="Register Here"
+            android:textColor="#50c789"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:text="New user?"
+            android:textColor="#808080"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/galdeano"
+            android:text="Enter your credential to login"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/logintext"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/galdeano"
+            android:hint="Patient Email :"
+            android:inputType="textEmailAddress"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/pass"
+            android:layout_below="@+id/emailid"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/galdeano"
+            android:hint="Password :"
+            android:textSize="20dp"
+            android:inputType="textPassword"/>
+        <Button
+            android:id="@+id/original_logbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pass"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="70dp"
+            android:text="Login"
+
+            />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/probar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

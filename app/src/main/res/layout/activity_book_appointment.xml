@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBECEC"
+    tools:context=".BookAppointment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/textbookappointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:text="Book an Appointment"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/Fname"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/textbookappointment"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/galdeano"
+            android:hint="Full Name :"
+            android:inputType="textPersonName"
+            android:padding="6dp"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/Fname"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:hint="Address :"
+            android:inputType="textPersonName"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/mobilenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:hint="Mobile Number:(without +91)"
+            android:inputType="phone"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/fee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:hint="Fees:"
+            android:inputType="textPersonName"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/galdeano"
+            android:hint="Patient Name"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/mobilenum"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/mobnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/galdeano"
+            android:hint="Mobile Number:(without +91)"
+            android:inputType="phone"
+            android:layout_below="@+id/pname"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/paddress"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/mobnum"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/galdeano"
+            android:hint="Address :"
+            android:inputType="textPersonName"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/galdeano"
+            android:hint="Date :"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/paddress"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/galdeano"
+            android:layout_marginTop="10dp"
+            android:hint="Time :"
+            android:textSize="20dp"
+            android:layout_below="@+id/date"/>
+
+
+        <Button
+            android:id="@+id/bookappointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fee"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"
+            android:text="Book Appointment"
+
+            />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/probar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
